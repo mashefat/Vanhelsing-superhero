@@ -1,0 +1,21 @@
+/* .data-container {
+    display: grid;
+    grid-template-columns: 3fr, 1fr; 
+} */
+.data-card{ 
+    width: 300px;
+    margin: 10px 30px;
+    padding: 15px;
+}
+.data-img{
+    text-align: center;
+    
+}
+.data-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
