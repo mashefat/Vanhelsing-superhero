@@ -10,7 +10,7 @@ const Data = (props) => {
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col data-card">
-                    <div class=" card h-100">
+                    <div class="card">
                         <div className='data-img'>
                             <img src={img} class="" alt="" />
                         </div>

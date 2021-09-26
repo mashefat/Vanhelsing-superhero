@@ -14,18 +14,18 @@ const Card = () => {
         <div className='cards-container'>
             <div className='card-div'>
                 <div className="card-container">
-                    {
-                        cards.map(card => <Data 
-                            key={card.role}
-                            card={card}></Data>)
-                    }
-                </div>
-
-                <div className='side-cart'>
-                    <h2>This is side cart</h2>
-                </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">      
+                        {
+                            cards.map(card => <Data 
+                                key={card.role}
+                                card={card}></Data>)
+                        }       
+                    </div>
+                </div>     
             </div>
-           
+            <div className='side-cart'>
+                <h2>This is side cart</h2>
+            </div>
         </div>
     )
 };
