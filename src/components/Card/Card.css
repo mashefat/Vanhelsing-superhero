@@ -1,5 +1,9 @@
 .cards-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    
      
 }
+/* .side-cart{
+    margin-left: 100px;
+} */
